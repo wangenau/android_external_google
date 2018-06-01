@@ -14,8 +14,8 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-
 include $(CLEAR_VARS)
+
 LOCAL_SRC_FILES := analytics_sdk_v2/libGoogleAnalyticsV2$(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE := libGoogleAnalyticsV2
 LOCAL_MODULE_TAGS := optional
